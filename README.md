@@ -51,7 +51,7 @@ The Licensee is allowed to freely redistribute the software subject to the follo
 
 Bugs or comments?
 -----------------
-public@limbenjamin.com
+Create an issue on [github](https://github.com/limbenjamin/TCPHound)
 
 Changelog
 ---------
