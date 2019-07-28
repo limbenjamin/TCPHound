@@ -13,8 +13,8 @@ TCPHound is a free Win32 utility for auditing TCP connections. I decided to deve
 Downloads
 =========
 
-[TCPHound v1.2 64bit](https://limbenjamin.com/files/TCPHound/TCPHound_v1.2_x64.exe) - SHA1() = e92148bbe271ca3354d0f3fa68c2581ea45376f4  
-[TCPHound v1.2 32bit](https://limbenjamin.com/files/TCPHound/TCPHound_v1.2_x86.exe) - SHA1() = 760b75c45a1b9eba30f1c990dd22e07fb37ec4f2  
+[TCPHound v1.3 64bit](https://limbenjamin.com/files/TCPHound/TCPHound_v1.3_x64.exe) - SHA1() = a8f5acc6a156cd57fdfab648ffb7d7a41be99220  
+[TCPHound v1.3 32bit](https://limbenjamin.com/files/TCPHound/TCPHound_v1.3_x86.exe) - SHA1() = 0cbcf4f78b9ea2750fbf52da7ff85fd4cffc8ef8  
 
 Due to a limitation in the GetModuleBaseName WINAPI, running the 32bit version on a 64bit machine will result in wrong or missing process names. Hence, please use the 64bit version on a 64bit machine.
 
@@ -56,7 +56,8 @@ Create an issue on [github](https://github.com/limbenjamin/TCPHound)
 Changelog
 ---------
 
-v1.2 (14/01/17) - Fixed bug with csv export. Self host IP to ASN mapping API. Added SHA1 hash functionality.   
+v1.3 (28/07/19) - Fixed bug with stale process data. Added ability to monitor SYN_SENT state.  
+v1.2 (14/01/17) - Fixed bug with csv export. Self host IP to ASN mapping API. Added SHA1 hash functionality.  
 v1.1 (17/12/16) - Added export to file functionality.  
 v1.0 (11/12/16) - Initial Release.  
   
