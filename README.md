@@ -44,7 +44,7 @@ License?
 The software is distributed "as is". No warranty of any kind is expressed or implied. You use at your own risk. The author will not be liable for data loss, damages, loss of profits or any other kind of loss while using or misusing this software.
 
 The Licensee is allowed to freely redistribute the software subject to the following conditions.  
-1.	The Software is used by the Licensee for non commercial purposes only.  
+1.	The Software may be installed and used by the Licensee for any legal purpose.
 2.	The Licensee will not charge money or fees for the software product, except to cover distribution costs.  
 3.  The Licensor retains all copyrights and other proprietary rights in and to the Software.  
 4.	Use within the scope of this License is free of charge and no royalty or licensing fees shall be paid by the Licensee.  
