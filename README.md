@@ -53,7 +53,7 @@ Create an issue on [github](https://github.com/limbenjamin/TCPHound)
 Changelog
 ---------
 
-v1.5 (25/08/20) - Updated hash function to SHA256. Deprecated 32-bit version. Open sourced the code. 
+v1.5 (25/08/20) - Updated hash function to SHA256. Deprecated 32-bit version. Open sourced the code.  
 v1.4 (27/10/19) - Added clear display and clear closed connection functionality.  
 v1.3 (28/07/19) - Fixed bug with stale process data. Added ability to monitor SYN_SENT state.  
 v1.2 (14/01/17) - Fixed bug with csv export. Self host IP to ASN mapping API. Added SHA1 hash functionality.  
