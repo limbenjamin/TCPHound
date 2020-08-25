@@ -13,10 +13,7 @@ TCPHound is a free Win32 utility for auditing TCP connections. I decided to deve
 Downloads
 =========
 
-[TCPHound v1.4 64bit](https://limbenjamin.com/files/TCPHound/TCPHound_v1.4_x64.exe) - SHA1() = 60c431498ab421981549be698b077443feeebf1d  
-[TCPHound v1.4 32bit](https://limbenjamin.com/files/TCPHound/TCPHound_v1.4_x86.exe) - SHA1() = f1eb0d105460d496cf135e0236a8be5139284cc7  
-
-Due to a limitation in the GetModuleBaseName WINAPI, running the 32bit version on a 64bit machine will result in wrong or missing process names. Hence, please use the 64bit version on a 64bit machine.
+[TCPHound v1.5](https://limbenjamin.com/files/TCPHound/TCPHound_v1.5.exe) - SHA256() = 446fdd29b5eaf6ad4bb44696b6c5a081ec75bba9013637d6c0cb6109ff38f280
 
 
 Q&A
@@ -37,7 +34,7 @@ Image name is a quick way to determine the process owning the connection. Howeve
 
 Can I have the source code?
 ---------------------------
-The utility is closed source at this point in time. If I decide to open source it in future, I will update this page.
+Source code is available on [github](https://github.com/limbenjamin/TCPHound)
 
 License?
 --------
@@ -56,6 +53,7 @@ Create an issue on [github](https://github.com/limbenjamin/TCPHound)
 Changelog
 ---------
 
+v1.5 (25/08/20) - Updated hash function to SHA256. Deprecated 32-bit version. Open sourced the code. 
 v1.4 (27/10/19) - Added clear display and clear closed connection functionality.  
 v1.3 (28/07/19) - Fixed bug with stale process data. Added ability to monitor SYN_SENT state.  
 v1.2 (14/01/17) - Fixed bug with csv export. Self host IP to ASN mapping API. Added SHA1 hash functionality.  

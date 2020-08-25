@@ -1,0 +1,59 @@
+﻿  TCPHound.cpp
+C:\workspace\TCPHound\TCPHound\TCPHound.cpp(395,23): warning C4244: 'initializing': conversion from 'LRESULT' to 'int', possible loss of data
+C:\workspace\TCPHound\TCPHound\TCPHound.cpp(552,20): warning C4244: '=': conversion from 'DWORD' to 'short', possible loss of data
+C:\workspace\TCPHound\TCPHound\TCPHound.cpp(555,32): warning C4244: 'argument': conversion from 'DWORD' to 'u_short', possible loss of data
+C:\workspace\TCPHound\TCPHound\TCPHound.cpp(558,33): warning C4244: 'argument': conversion from 'DWORD' to 'u_short', possible loss of data
+C:\workspace\TCPHound\TCPHound\TCPHound.cpp(721,5): warning C4002: too many arguments for function-like macro invocation 'ListView_SetItemText'
+C:\workspace\TCPHound\TCPHound\TCPHound.cpp(724,5): warning C4002: too many arguments for function-like macro invocation 'ListView_SetItemText'
+C:\workspace\TCPHound\TCPHound\TCPHound.cpp(740,5): warning C4002: too many arguments for function-like macro invocation 'ListView_SetItemText'
+C:\workspace\TCPHound\TCPHound\TCPHound.cpp(704,9): warning C4101: 'item': unreferenced local variable
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(2390,23): warning C4244: 'argument': conversion from 'wchar_t' to 'const _Elem', possible loss of data
+          with
+          [
+              _Elem=char
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(2401): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<wchar_t*>(_Iter,const _Iter,std::input_iterator_tag)' being compiled
+          with
+          [
+              _Iter=wchar_t *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(2401): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<wchar_t*>(_Iter,const _Iter,std::input_iterator_tag)' being compiled
+          with
+          [
+              _Iter=wchar_t *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(2381): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<wchar_t*>(const _Iter,const _Iter,std::forward_iterator_tag)' being compiled
+          with
+          [
+              _Iter=wchar_t *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(2381): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<wchar_t*>(const _Iter,const _Iter,std::forward_iterator_tag)' being compiled
+          with
+          [
+              _Iter=wchar_t *
+          ]
+C:\workspace\TCPHound\TCPHound\TCPHound.cpp(759): message : see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+C:\workspace\TCPHound\TCPHound\TCPHound.cpp(759): message : see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Generating code
+  1 of 1360 functions (<0.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+LINK : warning LNK4286: symbol '_exit' defined in 'libucrt.lib(exit.obj)' is imported by 'libcrypto_static.lib(cryptlib.obj)'
+LINK : warning LNK4286: symbol '__stdio_common_vswprintf' defined in 'libucrt.lib(output.obj)' is imported by 'libcrypto_static.lib(cryptlib.obj)'
+LINK : warning LNK4286: symbol '__stdio_common_vsprintf' defined in 'libucrt.lib(output.obj)' is imported by 'libcrypto_static.lib(cryptlib.obj)'
+LINK : warning LNK4286: symbol 'raise' defined in 'libucrt.lib(signal.obj)' is imported by 'libcrypto_static.lib(cryptlib.obj)'
+  TCPHound.vcxproj -> C:\workspace\TCPHound\x64\Release\TCPHound.exe
